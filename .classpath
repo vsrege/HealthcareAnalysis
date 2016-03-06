@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 6 [1.6.0_65-b14-462]">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0 (2)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/stable-3-6/weka/remoteExperimentServer.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/stable-3-6/weka/weka-src.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/stable-3-6/weka/weka.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/stable-3-6/weka/lib/java-cup.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/stable-3-6/weka/lib/JFlex.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/stable-3-6/weka/lib/junit.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/fluent-hc-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/httpclient-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/httpclient-cache-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/httpclient-win-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/httpcore-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/httpmime-4.4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/lib folder/httpcomponents-client-4.4.1/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/239projectjars/twilio-java-sdk-4.2.0.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/239projectjars/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/239projectjars/jackson-core-asl-1.6.7.jar"/>
+	<classpathentry kind="lib" path="/Users/vrushalirege/Desktop/239projectjars/jackson-mapper-lgpl-1.6.7.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

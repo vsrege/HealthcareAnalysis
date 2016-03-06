@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heart Decision | Take Heart Test</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+<!-- Font Awesome  -->
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<!-- Web Font  -->
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  -->
+<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><i class="fa fa-sun-o"></i> Hale and Hearty</a> </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li class="active"><a href="EnterData.html">Take a test</a></li>
+        <li><a href="Monitor.jsp">View Report</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="section_header">
+  <div class="container">
+    <h2><span>Take </span> test</h2>
+  </div>
+</div>
+<div class="contact">
+  <div class="container">
+   <!--  <div class="col-md-6">
+      <h3>Contact info</h3>
+      <p><span>Address:</span> 321 Awesome Street, New York, NY 17022</p>
+      <p><span>Email:</span> info@companyname.com</p>
+      <p><span>Phone:</span> +1 800 123 1234</p>
+    </div> -->
+    <div class="col-md-6">
+      <h3>Enter Heart Statistics</h3>
+      <form method="post" action="" id="heart">
+        <div class="form_details">
+          <input type="text" id="name" name="name" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+          <input type="text" id="email" name="email" class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+          <input type="text" id="contact" name="contact" class="text" value="Contact Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}">
+          <input type="text" id="age" name="age" class="text" value="Age" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Age';}"><br/>
+          &nbsp;&nbsp;<input type="radio" id="male" name="gender" value="1"/> Male
+          <input type="radio" id="female" name="gender" value="0"/> Female
+          <!--<input type="radio" class="text" id="female" name="gender" value="F" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'F';}"> Female
+          <input type="radio" class="text" id="male"  name="gender" value="M" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'M';}"> Male
+          <input type="text" id="chpain" name="chpain" class="text" value="Chest Pain" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Chest Pain';}">-->
+          <select id="chpain" name="chpain">
+           <option value="select">--Select chestpain type --</option>
+          <option value="1">typical Angina</option>
+           <option value="2">atypical Angina</option>
+            <option value="3">non-anginal pain</option>
+             <option value="4">asymptomatic</option>
+          </select>
+          <input type="text" id="restingbp" name="restingbp" class="text" value="Resting Blood Pressure" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Resting Blood Pressure';}">
+          <!-- <input type="text" id="serum" name="serum" class="text" value="Serum" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Serum';}">
+          <input type="text" id="fastingbs" name="fastingbs" class="text" value="Fasting Blood Sugar" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Fasting Blood Sugar';}">
+          <input type="text" id="ecg" name="ecg" class="text" value="Resting ECG" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Resting ECG';}"> 
+          <input type="text" id="maxhr" name="maxhr" class="text" value="Max Heart Rate" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Max Heart Rate';}">
+          <input type="text" id="angina" name="angina" class="text" value="Induce Angina" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Induce Angina';}">-->
+          <input type="text" id="oldpeak" name="oldpeak" class="text" value="Old Peak" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Old Peak';}">
+          <!-- <input type="text" id="slope" name="slope" class="text" value="Slope" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Slope';}">
+          <input type="text" id="flouroscopy" name="flouroscopy" class="text" value="Flouroscopy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Flouroscopy';}">
+          <input type="text" id="thal" name="thal" class="text" value="Thal" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Thal';}"> -->
+          
+          <!-- <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea> -->
+          <div class="clearfix"> </div>
+          <input type="submit" id="submit" class="btn" value="Submit">
+          <!-- <button class="btn" type="submit">Submit</button> -->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<div id="footerwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8"> <span class="copyright">Copyright &copy; 2015 Hale and Hearty. Design by <a href="http://www.templategarden.com" rel="nofollow">TemplateGarden</a></span> </div>
+      <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li><a href="#"><i class="fa fa-twitter"></i></a> </li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a> </li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a> </li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript --> 
+<!--  <script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function()
+	    {
+	
+	
+	
+	
+	
+	$.fn.serializeObject = function()
+	{
+	    var o = {};
+	    var a = this.serializeArray();
+	    $.each(a, function() {
+	        if (o[this.name] !== undefined) {
+	            if (!o[this.name].push) {
+	                o[this.name] = [o[this.name]];
+	            }
+	            o[this.name].push(this.value || '');
+	        } else {
+	            o[this.name] = this.value || '';
+	        }
+	    });
+	    return o;
+	};
+	
+	$(function() {
+	    $('form').submit(function() {
+	    	
+	    	var heartjson = JSON.stringify($('form').serializeObject());
+	    	//alert(heartjson);
+	    	
+	    	$.ajax({
+	    	    url : 'rest/insertData/insertHeartStat',
+	    	    type: 'POST',
+	    	    data : heartjson,
+	    	    contentType: 'application/json; charset=utf-8',
+	    	    dataType : 'json',
+	    	    processData: true,
+	    	    success: function(data)
+	    	    {
+	    	        
+	    	    	alert("Data added successfully!!");
+	    	    },
+	    	    error: function ()
+	    	    {
+	    	    	//alert("Error in post");
+	    	    }
+	    	});
+	    	
+	    });
+	
+	    });
+	
+	    });
+	    </script>
